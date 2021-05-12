@@ -3,14 +3,9 @@
 }
 
 .App-logo {
+  animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -35,4 +30,62 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.links {
+  margin-left: 42%;
+  margin-top: 20px;
+}
+
+.links Link {
+  margin-right: 20px;
+  text-decoration-line: underline;
+  color: white;
+  font-size: 20px;
+}
+
+
+.Cats {
+  border: rgb(6, 240, 103) solid 1px;
+  background-color: rgb(7, 68, 33);
+  padding: 40px;
+  margin: 50px 100px;
+  color: white;
+}
+
+.Dogs {
+  border: rgb(235, 94, 12) solid 1px;
+  background-color: rgb(245, 75, 8);
+  padding: 40px;
+  margin: 50px 100px;
+  color: white;
+}
+
+.Horse {
+  border: rgb(71, 12, 235) solid 1px;
+  background-color: rgb(96, 65, 233);
+  padding: 40px;
+  margin: 50px 100px;
+  color: white;
+}
+
+.Eagle {
+  border: rgb(135, 235, 177) solid 1px;
+  background-color: rgb(201, 175, 27);
+  padding: 40px;
+  margin: 50px 100px;
+  color: white;
+}
+
+.leftnav {
+  background-color: tomato;
+  height: 900px;
+}
+
+.link a {
+  margin: 15px 10px;
+  font-size: 20px;
+  color: white;
+  padding: 0px 20px;
+  text-decoration-line: underline;
 }
