@@ -11,7 +11,7 @@ const Dogs = React.lazy(
     () =>
         new Promise((resolve, reject) =>
             setTimeout(() => resolve(import("../pages/Dogs")), 100)
-        )
+            )
 );
 const Eagle = React.lazy(
     () =>
